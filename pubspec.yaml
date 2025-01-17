@@ -6,7 +6,8 @@ workspace:
 - package2
 - app
 dependencies:
-  freezed_annotation: any
+  args: ^2.6.0
+  freezed_annotation: ^2.4.4
   cupertino_icons: ^1.0.8
   phoenix_socket: 
     git:
@@ -14,6 +15,7 @@ dependencies:
       ref: 4c3f76476cb846c1bcf92272952162f52af25c86
 
 dev_dependencies:
-  flutter_lints: ^4.0.0
-  build_runner: any
-  freezed: any
+  flutter_lints: ^5.0.0
+  lints: ^5.1.1
+  build_runner: ^2.4.14
+  freezed: ^2.5.8
