@@ -1,8 +1,18 @@
 name: _
 environment:
-  sdk: ^3.5.0
+  sdk: ^3.6.1
 workspace:
 - package1
+- package2
 - app
 dependencies:
+  freezed_annotation: any
+  phoenix_socket: 
+    git:
+      url: https://github.com/braverhealth/phoenix-socket-dart
+      ref: 4c3f76476cb846c1bcf92272952162f52af25c86
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
   build_runner: any
+  freezed: any
