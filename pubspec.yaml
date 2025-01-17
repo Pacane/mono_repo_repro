@@ -7,6 +7,7 @@ workspace:
 - app
 dependencies:
   freezed_annotation: any
+  cupertino_icons: ^1.0.8
   phoenix_socket: 
     git:
       url: https://github.com/braverhealth/phoenix-socket-dart
